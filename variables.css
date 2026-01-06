@@ -1,0 +1,30 @@
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+
+  --grey-500: hsl(234, 12%, 34%);
+  --grey-400: hsl(212, 6%, 44%);
+  --white: hsl(0, 0%, 100%);
+
+  --font-main: "Poppins", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  --fw-extralight: 200;
+  --fw-regular: 400;
+  --fw-semibold: 600;
+
+  --text-sm: 0.75rem;
+  --text-body: 1rem;
+  --text-md: 1.25rem;
+  --text-lg: 1.75rem;
+  --text-xl: 2rem;
+  --text-xxl: 2.5rem;
+
+  --spacing-50: 0.5rem;
+  --spacing-100: 1rem;
+  --spacing-125: 1.25rem;
+  --spacing-150: 1.5rem;
+  --spacing-200: 2rem;
+  --spacing-300: 3rem;
+}
