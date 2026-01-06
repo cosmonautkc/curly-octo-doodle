@@ -73,3 +73,14 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+/* Base */
+body {
+  font-family: "Poppins", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+main {
+  min-width: 100vw;
+  min-height: 100vh;
+  padding: var(--spacing-300) var(--spacing-200);
+}
