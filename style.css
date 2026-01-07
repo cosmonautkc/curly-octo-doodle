@@ -118,8 +118,23 @@ main {
 .card {
   display: flex;
   flex-direction: column;
-  border: 1px black solid;
+  border-top: 5px solid;
+  border-radius: 5px;
   padding: var(--spacing-200);
+  box-shadow: 0 10px 25px hsl(0, 0%, 0%, 0.08), 0 6px 10px hsl(0, 0%, 0%, 0.04);
+}
+
+.card.supervisor {
+  border-color: var(--cyan);
+}
+.card.team-builder {
+  border-color: var(--red);
+}
+.card.karma {
+  border-color: var(--orange);
+}
+.card.calculator {
+  border-color: var(--blue);
 }
 
 .card h3 {
@@ -130,6 +145,7 @@ main {
 .card p {
   color: var(--grey-400);
   font-size: var(--text-sm);
+  text-wrap: wrap;
 }
 
 .card img {
