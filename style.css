@@ -77,6 +77,7 @@ h6 {
 /* Base */
 body {
   font-family: "Poppins", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: var(--grey-500);
 }
 
 main {
