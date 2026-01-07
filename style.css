@@ -104,3 +104,8 @@ main {
   font-weight: var(--fw-semibold);
   font-size: var(--text-lg);
 }
+
+.title-description {
+  padding-block: var(--spacing-75);
+  font-size: var(--text-body);
+}
