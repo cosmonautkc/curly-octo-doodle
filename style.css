@@ -89,3 +89,17 @@ main {
   gap: var(--spacing-300);
   padding: var(--spacing-300) var(--spacing-200);
 }
+
+.titles {
+  text-align: center;
+}
+
+.titles h1 {
+  font-weight: var(--fw-extralight);
+  font-size: var(--text-lg);
+}
+
+.titles h2 {
+  font-weight: var(--fw-semibold);
+  font-size: var(--text-lg);
+}
