@@ -109,3 +109,35 @@ main {
   padding-block: var(--spacing-75);
   font-size: var(--text-body);
 }
+
+.card-grid {
+  display: grid;
+  gap: var(--spacing-200);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px black solid;
+  padding: var(--spacing-200);
+}
+
+.card h3 {
+  font-size: var(--text-md);
+  font-weight: var(--fw-semibold);
+}
+
+.card p {
+  color: var(--grey-400);
+  font-size: var(--text-sm);
+}
+
+.card img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.icon {
+  align-self: flex-end;
+  margin: var(--spacing-300) 0 var(--spacing-100);
+}
