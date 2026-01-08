@@ -95,16 +95,18 @@ main {
 
 .titles {
   text-align: center;
+  max-width: 33rem;
+  margin: 0 auto;
 }
 
 .titles h1 {
   font-weight: var(--fw-extralight);
-  font-size: var(--text-lg);
+  font-size: clamp(var(--text-lg), 4vw, var(--text-xl));
 }
 
 .titles h2 {
   font-weight: var(--fw-semibold);
-  font-size: var(--text-lg);
+  font-size: clamp(var(--text-lg), 4vw, var(--text-xl));
 }
 
 .title-description {
