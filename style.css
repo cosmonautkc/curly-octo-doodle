@@ -66,6 +66,7 @@ h6 {
 body {
   font-family: "Poppins", Roboto, "Helvetica Neue", Arial, sans-serif;
   color: var(--grey-500);
+  background-color: var(--white);
 }
 
 main {
@@ -154,6 +155,7 @@ main {
   border-radius: 5px;
   padding: var(--spacing-200);
   box-shadow: 0 10px 25px hsl(0, 0%, 0%, 0.08), 0 6px 10px hsl(0, 0%, 0%, 0.04);
+  background-color: var(--white);
 }
 
 .card.supervisor {
