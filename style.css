@@ -106,44 +106,20 @@ main {
 .card-grid {
   display: grid;
   gap: var(--spacing-200);
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-areas: "supervisor" "builder" "karma" "calculator";
 }
 
 @media (min-width: 48rem) {
   .card-grid {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: ". a a ." "b b c c" ". d d .";
-
-    > :nth-child(1) {
-      grid-area: a;
-    }
-    > :nth-child(2) {
-      grid-area: b;
-    }
-    > :nth-child(3) {
-      grid-area: c;
-    }
-    > :nth-child(4) {
-      grid-area: d;
-    }
+    grid-template-areas: ". supervisor supervisor ." "builder builder karma karma" ". calculator calculator .";
   }
-}
 
-@media (min-width: 64rem) {
-  .card-grid {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: ". b ." "a b d" "a c d" ". c .";
-
-    > :nth-child(1) {
-      grid-area: a;
-    }
-    > :nth-child(2) {
-      grid-area: b;
-    }
-    > :nth-child(3) {
-      grid-area: c;
-    }
-    > :nth-child(4) {
-      grid-area: d;
+  @media (min-width: 64rem) {
+    .card-grid {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: ". builder ." "supervisor builder calculator" "supervisor karma calculator" ". karma .";
     }
   }
 }
@@ -160,15 +136,19 @@ main {
 
 .card.supervisor {
   border-color: var(--cyan);
+  grid-area: supervisor;
 }
 .card.team-builder {
   border-color: var(--red);
+  grid-area: builder;
 }
 .card.karma {
   border-color: var(--orange);
+  grid-area: karma;
 }
 .card.calculator {
   border-color: var(--blue);
+  grid-area: calculator;
 }
 
 .card h3 {
