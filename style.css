@@ -79,12 +79,14 @@ main {
   gap: var(--spacing-300);
   padding: var(--spacing-300) var(--spacing-200);
   max-width: 74rem;
+  width: 100%;
   margin: 0 auto;
 }
 
 .titles {
   text-align: center;
   max-width: 33rem;
+  width: 100%;
   margin: 0 auto;
 }
 
