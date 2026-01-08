@@ -180,6 +180,7 @@ main {
   color: var(--grey-400);
   font-size: var(--text-sm);
   text-wrap: wrap;
+  margin-top: var(--spacing-25);
 }
 
 .card img {
